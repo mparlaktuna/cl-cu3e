@@ -5,8 +5,9 @@
   :version "0.0.1"
   :author "Mustafa Parlaktuna <mparlaktuna@gmail.com>"
   :license "GPLv3"
-  ;; :defsystem-depends-on (:alexandria :cl-hooks)  
-  :components ((:file "package")))
+  :defsystem-depends-on (:alexandria :3d-vectors :3d-matrices)
+  :components ((:file "package")
+	       (:file "scene")))
  
                
                
