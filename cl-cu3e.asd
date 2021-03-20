@@ -12,7 +12,8 @@
   :serial t
   :depends-on (:alexandria :3d-vectors #:3d-matrices)
   :components ((:file "package")
-	       (:file "scene")))
+	       (:file "scene")
+               (:file "body")))
  
                
                
